@@ -3,6 +3,7 @@ function isValidPinCode(pin) {
     return pinRegex.test(pin);
 }
 
+console.log(isValidPinCode("400088B")); // false
 console.log(isValidPinCode("A400088")); // false
 console.log(isValidPinCode("110001")); // true
 console.log(isValidPinCode("000123")); // false
