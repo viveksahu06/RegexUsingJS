@@ -1,5 +1,5 @@
 function isValidEmail(email) {
-    const emailRegex = /^[a-zA-Z0-9._%+-]+@bridgelabz\.[a-zA-Z]{2,}$/;
+    const emailRegex = /^abc([._,+-][a-zA-Z0-9]+)?@bridgelabz\.[a-zA-Z]{2,}(\.[a-zA-Z]{2,})?$/;
     return emailRegex.test(email);
 }
 
