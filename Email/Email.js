@@ -11,4 +11,3 @@ console.log(isValidEmail("xyz@bridgelabz.co.in")); // false
 console.log(isValidEmail("abc@xyz.co.in")); // false
 console.log(isValidEmail("abc@bridgelabzcom")); // false
 console.log(isValidEmail("abc@bridgelabz.")); // false
-console.log(isValidEmail("abc@bridgelabz.co.a")); // false
